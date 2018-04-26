@@ -14,14 +14,16 @@ Summary: Python bindings for the docker credentials store API
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/docker-pycreds-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/docker-pycreds-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/docker-pycreds-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/docker-pycreds-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/docker-pycreds-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/docker-pycreds-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/docker-pycreds-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/docker-pycreds-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/docker-pycreds-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/docker-pycreds-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/docker-pycreds-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/docker-pycreds-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/docker-pycreds/badges/version.svg)](https://anaconda.org/conda-forge/docker-pycreds)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/docker-pycreds/badges/downloads.svg)](https://anaconda.org/conda-forge/docker-pycreds)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-docker--pycreds-green.svg)](https://anaconda.org/conda-forge/docker-pycreds) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/docker-pycreds.svg)](https://anaconda.org/conda-forge/docker-pycreds) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/docker-pycreds.svg)](https://anaconda.org/conda-forge/docker-pycreds) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/docker-pycreds.svg)](https://anaconda.org/conda-forge/docker-pycreds) |
 
 Installing docker-pycreds
 =========================
