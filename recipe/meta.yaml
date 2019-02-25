@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: docker-pycreds
@@ -7,11 +7,11 @@ package:
 source:
   fn: docker-pycreds-{{ version }}.tar.gz
   url: https://github.com/shin-/dockerpy-creds/archive/{{ version }}.tar.gz
-  sha256: 3660a5e9fc7c2816ab967e4bdb4802f211e35011357ae612a601d6944721e153
+  sha256: c76c2863c6e9a31b8f70ee5b8b0e5ac6860bfd422d930c04a387599e4272b4b9
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
